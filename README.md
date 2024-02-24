@@ -11,7 +11,7 @@ a comprehensive suite of tools to aid in your financial decision-making processe
 <b>Installation</b> <br> 
 To install "finance_calculators.py" locally, follow these steps:
 - Ensure you have Python installed on your machine. "finance_calculators.py" requires Python 3.6 or higher.
-- Clone the finalCapstone repository from GitHub:
+- Clone the finalCapstone repository from GitHub:<br> 
 git clone https://github.com/MaKaragianni/finalCapstone.git
 - Navigate to the cloned repository:
 cd finalCapstone
