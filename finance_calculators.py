@@ -22,7 +22,7 @@ if choice == "investment": # If the user enters 'investment', the below user inp
     else:
         print("Invalid interest type. Please enter 'simple' or 'compound'.")
 
-# We can then calculate the output is the amount they'll get back after the given period at the given interest rate 
+# We can then calculate the output is the amount they'll get back after the given period at the given interest rate
     print(f"The total amount after {t} years is: {a}")
 
 elif choice == "bond": # If the user enters 'bond', the below user input is requested
@@ -33,12 +33,8 @@ elif choice == "bond": # If the user enters 'bond', the below user input is requ
     i = annual_interest / 12 # Converting annual interest rate to monthly
     repayment = (i * p) / (1 - (1 + i) ** (-n))
 
-# We can then calculate how much money the user will have to repay each month     
+# We can then calculate how much money the user will have to repay each month
     print(f"Your monthly bond repayment will be: {repayment}")
 
 else:
     print("Invalid input. Please enter either 'investment' or 'bond'.")
-
-    
-
-
